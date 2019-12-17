@@ -1,9 +1,4 @@
 /*
-Libs included:
-    underscore lodash chai sinon sinon-chai mocha async request q bluebird jsdom
-*/
-
-/*
  * The Time Traveling Hash Table
  * =============================
  * 
@@ -37,11 +32,6 @@ TimeTravelingHashTable.prototype.get = function(key) {}
 TimeTravelingHashTable.prototype.getAt = function(key, time) {}
 
 var chai = require('chai');
-var Mocha = require('mocha');
-
-var mocha = new Mocha();
-mocha.reporter('list').ui('bdd');
-mocha.suite.emit('pre-require', this, null, mocha);
 
 var assert = chai.assert;
 
@@ -82,5 +72,3 @@ describe('Time Traveling Hash Table Functionality', function() {
         assert.equal(ttht.getAt('bar', -1.0), 'X');
     });
 });
-
-mocha.run();

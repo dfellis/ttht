@@ -4,7 +4,7 @@
   "description": "Time-Traveling Hash Table problem for Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "mocha index.js"
   },
   "keywords": [
     "ttht",
