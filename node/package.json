@@ -1,0 +1,28 @@
+{
+  "name": "ttht",
+  "version": "1.0.0",
+  "description": "Time-Traveling Hash Table problem for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "ttht",
+    "exercise"
+  ],
+  "author": "David Ellis <isv.damocles@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.1.0",
+    "bluebird": "^3.7.2",
+    "chai": "^4.2.0",
+    "jsdom": "^15.2.1",
+    "lodash": "^4.17.15",
+    "mocha": "^6.2.2",
+    "q": "^1.5.1",
+    "request": "^2.88.0",
+    "sinon": "^7.5.0",
+    "sinon-chai": "^3.3.0",
+    "underscore": "^1.9.1"
+  }
+}
