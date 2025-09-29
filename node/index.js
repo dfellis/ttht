@@ -23,19 +23,18 @@
  * NOTE: PERFORMANCE DOES NOT MATTER
  */
 
-function TimeTravelingHashTable() {}
+const { describe, it } = require('node:test');
 
-TimeTravelingHashTable.prototype.set = function(key, val, time) {}
+class TimeTravelingHashTable {
 
-TimeTravelingHashTable.prototype.get = function(key) {}
+  set(key, val, time) {}
 
-TimeTravelingHashTable.prototype.getAt = function(key, time) {}
+  get(key) {}
 
-var chai = require('chai');
+  getAt(key, time) {}
+}
 
-var assert = chai.assert;
-
-var ttht = new TimeTravelingHashTable();
+let ttht = new TimeTravelingHashTable();
 
 describe('Standard Hash Table Functionality', function() {
     it('should set values without failing', function() {
